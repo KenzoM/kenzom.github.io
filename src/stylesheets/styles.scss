@@ -12,6 +12,10 @@ body{
   color: $dark-grey
 }
 
+hr{
+  border: 3px solid $dark-grey;
+}
+
 .header {
   background: $white;
 }
@@ -24,6 +28,10 @@ body{
   background: $base-color;
 }
 
+.project{
+  // max-width: 320px;
+}
+
 .icon{
   color: $dark-grey;
   padding-left: 20px;
@@ -32,4 +40,10 @@ body{
 
 .footer-copyright{
   padding-top: 10px;
+}
+
+@media screen and (min-width: 992px) {
+  .project{
+    max-width: 320px;
+  }
 }

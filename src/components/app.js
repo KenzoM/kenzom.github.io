@@ -6,6 +6,7 @@ import Header from './header';
 import About from './about';
 import Footer from './footer';
 import Skills from './skills';
+import Projects from './projects';
 
 export default class App extends Component {
   render() {
@@ -15,6 +16,7 @@ export default class App extends Component {
         <Footer />
         <About />
         <Skills />
+        <Projects />
       </div>
     );
   }

@@ -7,6 +7,7 @@ export default class Skills extends Component {
         <div className="row">
           <div className="col-sm-12 text-center">
             <h1>Skills</h1>
+            <hr /> 
           </div>
         </div>
       </div>
