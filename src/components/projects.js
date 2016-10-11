@@ -10,10 +10,30 @@ export default class Projects extends Component {
             <hr />
           </div>
           <div className="my-container">
-            <div className="project border">Blue</div>
-            <div className="project border">Blue</div>
-            <div className="project border">Blue</div>
-            <div className="project border">Blue</div>
+            <div className="project">
+              <img src="/src/image/simon.png" />
+              <h3 className="project-title text-center">Title</h3>
+              <h4 className="text-center"> This is some description </h4>
+              <p className="text-center"> Links </p>
+            </div>
+            <div className="project">
+              <img src="/src/image/simon.png" />
+              <h3 className="project-title text-center">Title</h3>
+              <h4 className="text-center"> This is some description </h4>
+              <p className="text-center"> Links </p>
+            </div>
+            <div className="project">
+              <img src="/src/image/simon.png" />
+              <h3 className="project-title text-center">Title</h3>
+              <h4 className="text-center"> This is some description </h4>
+              <p className="text-center"> Links </p>
+            </div>
+            <div className="project">
+              <img src="/src/image/simon.png" />
+              <h3 className="project-title text-center">Title</h3>
+              <h4 className="text-center"> This is some description </h4>
+              <p className="text-center"> Links </p>
+            </div>
           </div>
         </div>
       </div>
