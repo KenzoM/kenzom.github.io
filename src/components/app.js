@@ -12,6 +12,7 @@ export default class App extends Component {
       <div>
         <Header />
         <Footer />
+        <About />
       </div>
     );
   }

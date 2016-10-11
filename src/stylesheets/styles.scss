@@ -6,7 +6,9 @@ $white: white;
 
 
 body{
-  background: $base-color;
+  padding-top: 50px;
+  font-family: 'BioRhyme', serif;
+  background: $white;
   color: $dark-grey
 }
 
@@ -16,6 +18,10 @@ body{
 
 .border{
   border: 2px solid black;
+}
+
+.about{
+  background: $base-color;
 }
 
 .icon{

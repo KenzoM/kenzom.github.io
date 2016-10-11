@@ -13,7 +13,7 @@ export default class Header extends Component{
                 <span className="icon-bar"></span>
                 <span className="icon-bar"></span>
               </button>
-              <a className="navbar-brand" href="#">BootstrapBay</a>
+              <a className="navbar-brand" href="#">Kenzo Logo</a>
             </div>
             <div className="navbar-collapse collapse">
               <ul className="nav navbar-nav navbar-right">
@@ -22,7 +22,6 @@ export default class Header extends Component{
                 <li><a href="#">Contact</a></li>
               </ul>
             </div>
-
         </div>
       </div>
     )
