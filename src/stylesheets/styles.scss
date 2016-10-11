@@ -4,15 +4,33 @@ $dark-grey: #636F85;
 $light-grey: #D4D7DD;
 $white: white;
 
-.nav-wrapper{
-  width: 100%;
+nav{
   background: $white;
-  a{
-    color: $dark-grey
+  .nav-wrapper{
+    width: 100%;
+    background: $white;
+    a{
+      color: $dark-grey
+    }
   }
 }
+
 
 body{
   background: $base-color;
   color: $dark-grey
+}
+
+.border{
+  border: 2px solid black;
+}
+
+.hero{
+  margin-top: -35px;
+  height: 50vh;
+}
+
+.about{
+  // background: $light-grey;
+  height: 50vh;
 }

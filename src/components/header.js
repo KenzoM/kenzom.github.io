@@ -5,8 +5,8 @@ export default class Header extends Component{
     return (
       <div>
         <nav>
-          <div className="nav-wrapper">
-            <a href="#" className="brand-logo"></a>
+          <div className="nav-wrapper container">
+            <a href="#" className="brand-logo">Kenzo</a>
             <ul id="nav-mobile" className="right hide-on-med-and-down">
               <li><a href="#">Home</a></li>
               <li><a href="#">About</a></li>
