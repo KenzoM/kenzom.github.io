@@ -8,6 +8,11 @@ export default class Footer extends Component{
           <div className="navbar-text pull-left">
             <p>© 2014 Kenzo</p>
           </div>
+          <div className="navbar-text pull-right">
+      			<a href="#"><i className="icon fa fa-linkedin fa-2x"></i></a>
+      			<a href="#"><i className="icon fa fa-twitter fa-2x"></i></a>
+      			<a href="#"><i className="icon fa fa-github fa-2x"></i></a>
+      		</div>
         </div>
       </div>
     )
