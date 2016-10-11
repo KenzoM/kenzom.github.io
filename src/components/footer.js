@@ -5,8 +5,8 @@ export default class Footer extends Component{
     return (
       <div className="navbar-default navbar-fixed-bottom" role="navigation">
         <div className="container">
-          <div className="navbar-text pull-left">
-            <p>© 2014 Kenzo</p>
+          <div className="navbar-text pull-left footer-copyright">
+            © 2016 Kenzo Mendoza
           </div>
           <div className="navbar-text pull-right">
       			<a href="#"><i className="icon fa fa-linkedin fa-2x"></i></a>
