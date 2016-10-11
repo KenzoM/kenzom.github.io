@@ -4,33 +4,20 @@ $dark-grey: #636F85;
 $light-grey: #D4D7DD;
 $white: white;
 
-nav{
-  background: $white;
-  .nav-wrapper{
-    width: 100%;
-    background: $white;
-    a{
-      color: $dark-grey
-    }
-  }
-}
-
 
 body{
   background: $base-color;
   color: $dark-grey
 }
 
+.header {
+  background: $white;
+}
+
 .border{
   border: 2px solid black;
 }
 
-.hero{
-  margin-top: -35px;
-  height: 50vh;
-}
-
-.about{
-  color: $white;
-  height: 50vh;
+.active a{
+  background-color: red;
 }
