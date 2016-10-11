@@ -13,10 +13,10 @@ export default class App extends Component {
     return (
       <div>
         <Header />
-        <Footer />
         <About />
         <Skills />
         <Projects />
+        {/* <Footer /> */}
       </div>
     );
   }

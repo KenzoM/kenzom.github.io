@@ -28,8 +28,14 @@ hr{
   background: $base-color;
 }
 
+.my-container{
+  width: 100%;
+  display: flex;
+  flex-wrap :wrap;
+}
 .project{
-  // max-width: 320px;
+  width: 33.333%;
+  height: 100px;
 }
 
 .icon{
@@ -41,9 +47,9 @@ hr{
 .footer-copyright{
   padding-top: 10px;
 }
-
-@media screen and (min-width: 992px) {
+//
+@media screen and (max-width: 992px) {
   .project{
-    max-width: 320px;
+    width: 100%;
   }
 }
