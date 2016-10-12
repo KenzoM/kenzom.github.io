@@ -28,27 +28,10 @@ export default class Projects extends Component {
                   </div>
                   <img src="/src/image/simon.png" />
                 </div>
-              <div className="project-caption">
-                <h2 className="project-title text-center">Title</h2>
-                <h4 className="text-center"> This is some description </h4>
-              </div>
-
-
-              </div>
-              <div className="project">
-                <img src="/src/image/heatmap.png" />
-                <h2 className="project-title text-center">Title</h2>
-                <h4 className="text-center"> This is some description </h4>
-              </div>
-              <div className="project">
-                <img src="/src/image/game-of-life.png" />
-                <h3 className="project-title text-center">Title</h3>
-                <h4 className="text-center"> This is some description </h4>
-              </div>
-              <div className="project">
-                <img src="/src/image/map.png" />
-                <h3 className="project-title text-center">Title</h3>
-                <h4 className="text-center"> This is some description </h4>
+                <div className="project-caption">
+                  <h2 className="project-title text-center">Title</h2>
+                  <h4 className="text-center"> This is some description </h4>
+                </div>
               </div>
             </div>
           </div>
