@@ -16,6 +16,13 @@ hr{
   border: 1px solid $dark-grey;
 }
 
+.anchor{
+  display: block;
+  height: 50px; /*same height as header*/
+  margin-top: -50px; /*same height as header*/
+  visibility: hidden;
+}
+
 .header {
   background: $white;
 }
