@@ -1,5 +1,5 @@
 $base-color: #A3E3F9;
-$accent-color: #FFB2A4;
+$accent-color: #e05b43;
 $dark-grey: #636F85;
 $light-grey: #D4D7DD;
 $white: white;
@@ -53,8 +53,12 @@ hr{
 .icon{
   color: $dark-grey;
   padding-left: 20px;
-  font-size: 2.4em;
+  transition: color, 0.5s ease-out;
+  &:hover {
+    color: $accent-color;
+  }
 }
+
 
 .footer-copyright{
   padding-top: 10px;

@@ -13,8 +13,11 @@ export default class Header extends Component{
               <h1>Hello there!</h1>
               <p>My name is Kenzo. I am a front-end web developer</p>
               <p>Self-taught, but ambtious!</p>
+              <a href="#"><i className="icon fa fa-file-pdf-o fa-5x"></i></a>
+              <a href="#"><i className="icon fa fa-linkedin-square fa-5x"></i></a>
+              <a href="#"><i className="icon fa fa-codepen fa-5x"></i></a>
+              <a href="#"><i className="icon fa fa-github fa-5x"></i></a>
             </div>
-
           </div>
         </div>
       </div>
