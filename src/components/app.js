@@ -3,7 +3,7 @@ import style from '../stylesheets/styles.scss';
 
 
 import Header from './header';
-import About from './about';
+import Intro from './intro';
 import Footer from './footer';
 import Skills from './skills';
 import Projects from '../containers/projects';
@@ -13,7 +13,7 @@ export default class App extends Component {
     return (
       <div>
         <Header />
-        <About />
+        <Intro />
         <Skills />
         <Projects />
         <Footer />
