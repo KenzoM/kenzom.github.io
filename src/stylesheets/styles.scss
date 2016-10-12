@@ -42,10 +42,11 @@ hr{
 }
 .project{
   width: 33.333%;
+  padding: 10px;
   img{
     cursor: pointer;
     width: 100%;
-    min-height: 300px
+    height: 35vh;
   }
   box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
 }
