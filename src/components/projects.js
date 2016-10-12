@@ -13,28 +13,42 @@ export default class Projects extends Component {
             </div>
             <div className="my-container">
               <div className="project">
-                <img src="/src/image/simon.png" />
-                <h3 className="project-title text-center">Title</h3>
+                <div className="project-image">
+                  <div className="project-hover">
+                    <div className="project-hover-content">
+                      <a href="#" target="_blank">
+                        <i className="fa fa-cogs fa-2x"></i>
+                        <p>View Demo</p>
+                      </a>
+                      <a className="hidden-xs" href="#" target="_blank">
+                        <i className="fa fa-file-code-o fa-2x"></i>
+                        <p>View Source</p>
+                        </a>
+                    </div>
+                  </div>
+                  <img src="/src/image/simon.png" />
+                </div>
+              <div className="project-caption">
+                <h2 className="project-title text-center">Title</h2>
                 <h4 className="text-center"> This is some description </h4>
-                <p className="text-center"> Links </p>
+              </div>
+
+
               </div>
               <div className="project">
                 <img src="/src/image/heatmap.png" />
                 <h2 className="project-title text-center">Title</h2>
                 <h4 className="text-center"> This is some description </h4>
-                <p className="text-center"> Links </p>
               </div>
               <div className="project">
                 <img src="/src/image/game-of-life.png" />
                 <h3 className="project-title text-center">Title</h3>
                 <h4 className="text-center"> This is some description </h4>
-                <p className="text-center"> Links </p>
               </div>
               <div className="project">
                 <img src="/src/image/map.png" />
                 <h3 className="project-title text-center">Title</h3>
                 <h4 className="text-center"> This is some description </h4>
-                <p className="text-center"> Links </p>
               </div>
             </div>
           </div>

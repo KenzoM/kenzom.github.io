@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-export default class Skills extends Component {
+export default class Skills extends Component{
   render(){
-    return(
+    return (
       <div>
         <span className="anchor" id="skills-section"></span>
         <div className="container">
