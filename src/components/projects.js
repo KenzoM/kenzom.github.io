@@ -20,7 +20,7 @@ export default class Projects extends Component {
               </div>
               <div className="project">
                 <img src="/src/image/heatmap.png" />
-                <h3 className="project-title text-center">Title</h3>
+                <h2 className="project-title text-center">Title</h2>
                 <h4 className="text-center"> This is some description </h4>
                 <p className="text-center"> Links </p>
               </div>
