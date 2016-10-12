@@ -1,6 +1,26 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import ProjectCard from '../components/project-card';
 
-export default class Projects extends Component {
+class Projects extends Component {
+  constructor(props) {
+    super(props);
+    this.renderProjects = this.renderProjects.bind(this);
+  }
+  renderProjects(){
+    return this.props.projects.map(project =>{
+      return (
+        <ProjectCard
+          key ={project.projectTitle}
+          linkDemo ={project.linkDemo}
+          linkProject ={project.linkProject}
+          picture ={project.picture}
+          projectDescription ={project.projectDescription}
+          projectTitle ={project.projectTitle}
+        />
+      )
+    })
+  }
   render(){
     return(
       <div>
@@ -12,27 +32,7 @@ export default class Projects extends Component {
               <hr />
             </div>
             <div className="my-container">
-              <div className="project">
-                <div className="project-image">
-                  <div className="project-hover">
-                    <div className="project-hover-content">
-                      <a href="#" target="_blank">
-                        <i className="fa fa-cogs fa-2x"></i>
-                        <p>View Demo</p>
-                      </a>
-                      <a className="hidden-xs" href="#" target="_blank">
-                        <i className="fa fa-file-code-o fa-2x"></i>
-                        <p>View Source</p>
-                        </a>
-                    </div>
-                  </div>
-                  <img src="/src/image/simon.png" />
-                </div>
-                <div className="project-caption">
-                  <h2 className="project-title text-center">Title</h2>
-                  <h4 className="text-center"> This is some description </h4>
-                </div>
-              </div>
+              {this.renderProjects()}
             </div>
           </div>
         </div>
@@ -40,3 +40,10 @@ export default class Projects extends Component {
     )
   }
 }
+
+function mapStateToProps(state) {
+  return {
+    projects: state.info
+  };
+}
+export default connect(mapStateToProps)(Projects)
