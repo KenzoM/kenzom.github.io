@@ -18,7 +18,7 @@ export const INFO = [
     linkProject: '#' ,
     linkDemo: 'http://s.codepen.io/neotriz/debug/yJPLOO' ,
     projectTitle: 'Tic-Tac-Toe' ,
-    projectDescription: '#Object-Oriented, #jQuery' ,
+    projectDescription: '#Object-Oriented, #jQuery, #Min-Max-Algorithm' ,
   },
   {
     picture: '/src/image/heatmap.png' ,
