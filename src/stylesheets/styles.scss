@@ -15,6 +15,10 @@ body{
   font-size: 1.7em;
 }
 
+.highlight-text{
+  color: $accent-color;
+}
+
 #intro{
   display: table;
   height: 100vh;
@@ -33,6 +37,17 @@ hr{
 
 .home-icons{
   margin-top: 55px;
+}
+
+.bio-picture{
+  border-radius: 6%;
+}
+
+.about-bio{
+  text-align: justify;
+  br {
+    line-height: 2em;
+  }
 }
 
 .anchor{
