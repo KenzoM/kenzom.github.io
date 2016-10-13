@@ -2,6 +2,7 @@ $base-color: #A3E3F9;
 $accent-color: #e05b43;
 $dark-grey: #636F85;
 $light-grey: #D4D7DD;
+$intro: #EEEEEE;
 $white: white;
 
 
@@ -13,6 +14,17 @@ body{
 }
 .nav{
   font-size: 1.7em;
+}
+
+#intro{
+  display: table;
+  height: 100vh;
+  width: 100vw;
+  .intro-description{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
 }
 
 hr{
@@ -32,10 +44,6 @@ hr{
 
 .border{
   border: 2px solid black;
-}
-
-.about{
-  background: $base-color;
 }
 
 .my-container{
@@ -108,14 +116,35 @@ hr{
 .footer-copyright{
   padding-top: 10px;
 }
-//
+/* DEMO-SPECIFIC STYLES */
+.typewriter{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  h1 {
+  display: inline-block;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid $accent-color; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 4.5s steps(40, end),
+    blink-caret .75s step-end 2;
+  }
+}
 
-// @media screen and (min-width: 460px) and (max-width: 992) {
-//   .project{
-//     width: 50%;
-//     // margin-top: 20px;
-//   }
-// }
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: $accent-color; }
+}
 
 @media screen and (max-width: 780px) {
   .project{
