@@ -7,7 +7,6 @@ $white: white;
 
 
 body{
-  padding-top: 50px;
   font-family: 'Montserrat', sans-serif;
   background: $white;
   color: $dark-grey
@@ -19,11 +18,12 @@ body{
 #intro{
   display: table;
   height: 100vh;
-  width: 100vw;
+  margin: 0 auto;
   .intro-description{
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+    width: 100vw;
   }
 }
 
@@ -124,20 +124,20 @@ hr{
   h1 {
   display: inline-block;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid $accent-color; /* The typwriter cursor */
+  border-right: .35em solid $accent-color; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
   animation:
-    typing 4.5s steps(40, end),
-    blink-caret .75s step-end 2;
+    typing 2s steps(40, end),
+    blink-caret .75s step-end;
   }
 }
 
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
-  to { width: 100% }
+  to { width: 98% }
 }
 
 /* The typewriter cursor effect */
