@@ -17,9 +17,10 @@ export default class Header extends Component{
             </div>
             <div className="navbar-collapse collapse">
               <ul className="nav navbar-nav navbar-right">
-                <li><a href="#">Home</a></li>
+                <li><a href="#about-section">About</a></li>
                 <li><a href="#skills-section">Skills</a></li>
                 <li><a href="#project-section">Projects</a></li>
+                <li><a href="#contact-section">Contact</a></li>
               </ul>
             </div>
         </div>

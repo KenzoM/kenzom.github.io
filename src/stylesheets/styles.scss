@@ -31,6 +31,10 @@ hr{
   border: 1px solid $dark-grey;
 }
 
+.home-icons{
+  margin-top: 55px;
+}
+
 .anchor{
   display: block;
   height: 50px; /*same height as header*/
@@ -127,17 +131,17 @@ hr{
   border-right: .35em solid $accent-color; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
+  letter-spacing: .16em; /* Adjust as needed */
   animation:
-    typing 2s steps(40, end),
-    blink-caret .75s step-end;
+    typing 2s steps(40, end) 1,
+    blink-caret .75s step-end infinite;
   }
 }
 
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
-  to { width: 98% }
+  to { width: 100% }
 }
 
 /* The typewriter cursor effect */
