@@ -19,22 +19,21 @@ export default class About extends Component {
                   <li data-target="#myCarousel" data-slide-to="2"></li>
                   <li data-target="#myCarousel" data-slide-to="3"></li>
                 </ol>
-
                 <div className="carousel-inner" role="listbox">
                   <div className="item active">
-                    <img src="src/image/kenzo.png" alt="Chania" />
+                    <img className ="img-responsive center-block" src="https://unsplash.it/200/300/?random" alt="Chania" />
                   </div>
 
                   <div className="item">
-                    <img src="src/image/kenzo.png" alt="Chania" />
+                    <img className ="img-responsive center-block" src="https://unsplash.it/200/300/?random" alt="Chania" />
                   </div>
 
                   <div className="item">
-                    <img src="src/image/kenzo.png" alt="Flower" />
+                    <img className ="img-responsive center-block" src="https://unsplash.it/200/300/?random" alt="Flower" />
                   </div>
 
                   <div className="item">
-                    <img src="src/image/kenzo.png" alt="Flower" />
+                    <img className ="img-responsive center-block" src="https://unsplash.it/200/300/?random" alt="Flower" />
                   </div>
                 </div>
 
