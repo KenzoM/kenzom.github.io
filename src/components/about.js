@@ -25,9 +25,14 @@ export default class About extends Component {
                 In my spare time, I go out running here in San Francisco, travel around the world,
                 and play flamenco music.
                 <br />
-                Want to get in touch with me? Click here!!
               </p>
+              <div>
+                <a href="#" className="contact-btn">
+                  <span className="content">Contact me!</span>
+                </a>
+              </div>
             </div>
+
           </div>
         </div>
       </div>
