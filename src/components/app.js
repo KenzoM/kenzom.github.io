@@ -8,6 +8,7 @@ import About from './about';
 import Footer from './footer';
 import Skills from './skills';
 import Projects from '../containers/projects';
+import Contact from './contact'
 
 export default class App extends Component {
   render() {
@@ -18,6 +19,7 @@ export default class App extends Component {
         <About />
         <Skills />
         <Projects />
+        <Contact />
         <Footer />
       </div>
     );

@@ -24,7 +24,7 @@ class Projects extends Component {
   }
   render(){
     return(
-      <div>
+      <div id="projects">
         <span className="anchor" id="project-section"></span>
         <div className="container">
           <div className="row">
