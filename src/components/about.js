@@ -9,7 +9,7 @@ export default class About extends Component {
           <div className="row">
             <div className="col-sm-12 text-center">
               <h1>About</h1>
-              <hr />
+              <hr className="highlight-text" />
             </div>
             <div className="col-sm-12 col-md-6 text-center">
               <img className="img-responsive center-block bio-picture" src="src/image/kenzo.png" />
@@ -27,7 +27,7 @@ export default class About extends Component {
                 <br />
               </p>
               <div>
-                <a href="#" className="contact-btn">
+                <a href="#contact-section" className="contact-btn">
                   <span className="content">Contact me!</span>
                 </a>
               </div>

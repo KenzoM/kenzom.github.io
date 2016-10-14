@@ -206,6 +206,11 @@ hr{
   margin: 9px;
 }
 
+.contact-list{
+   list-style-type: none;
+   color: #337AB7;
+}
+
 .footer-copyright{
   padding-top: 10px;
 }
@@ -249,5 +254,9 @@ hr{
   .project-hover-content {
     top: 18%;
     font-size: 1.3em;
+  }
+
+  .more-projects{
+    display: none;
   }
 }
