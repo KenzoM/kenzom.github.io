@@ -2,6 +2,7 @@ $base-color: #A3E3F9;
 $accent-color: #e05b43;
 $dark-grey: #636F85;
 $light-grey: #D4D7DD;
+$light-green: #23b43f;
 $intro: #EEEEEE;
 $white: white;
 
@@ -17,6 +18,10 @@ body{
 
 .highlight-text{
   color: $accent-color;
+}
+.highlight-text2{
+  color: $light-green;
+  font-size: 1.3em;
 }
 
 #intro{
@@ -44,7 +49,7 @@ hr{
 }
 
 .about-bio{
-  text-align: justify;
+  text-align: left;
   br {
     line-height: 2em;
   }

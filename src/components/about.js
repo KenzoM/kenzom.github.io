@@ -17,13 +17,15 @@ export default class About extends Component {
             <div className="col-sm-12 col-md-6 text-center">
               <h3>Hi! My name is <span className="highlight-text"> Kenzo</span></h3>
               <p className="about-bio">I&#39;ve learned how to program
-                through various, most notably FreeCodeCamp, Udemy and Udacity.
+                through various, most notably <span className="highlight-text2">FreeCodeCamp</span>, <span className="highlight-text2">Udemy</span> and <span className="highlight-text2">Udacity</span>.
                 <br />
                 I specialize in front-end but I am currently working on more back-end
                 to become a full-stack web-developer.
                 <br />
                 In my spare time, I go out running here in San Francisco, travel around the world,
                 and play flamenco music.
+                <br />
+                Want to get in touch with me? Click here!!
               </p>
             </div>
           </div>
