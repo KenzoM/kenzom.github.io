@@ -16,6 +16,7 @@ class Projects extends Component {
           linkProject ={project.linkProject}
           picture ={project.picture}
           projectDescription ={project.projectDescription}
+          projectTags ={project.projectTags}
           projectTitle ={project.projectTitle}
         />
       )
