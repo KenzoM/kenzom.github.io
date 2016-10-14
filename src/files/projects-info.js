@@ -46,5 +46,29 @@ export const INFO = [
     projectTitle: 'Recipe Box' ,
     projectDescription: "An app that lets user store recipes",
     projectTags: '#React, #Redux, #localStorage'
+  },
+  {
+    picture: '/src/image/placeholder.png' ,
+    linkProject: '#' ,
+    linkDemo: '#' ,
+    projectTitle: 'Coming Soon#1' ,
+    projectDescription: "",
+    projectTags: ''
+  },
+  {
+    picture: '/src/image/placeholder.png' ,
+    linkProject: '#' ,
+    linkDemo: '#' ,
+    projectTitle: 'Coming Soon#2' ,
+    projectDescription: "",
+    projectTags: ''
+  },
+  {
+    picture: '/src/image/placeholder.png' ,
+    linkProject: '#' ,
+    linkDemo: '#' ,
+    projectTitle: 'Coming Soon#3' ,
+    projectDescription: "",
+    projectTags: ''
   }
 ];

@@ -10,11 +10,11 @@ export default class ProjectCard extends Component{
         <div className="project-image">
           <div className="project-hover">
             <div className="project-hover-content">
-              <a href={this.props.linkDemo} target="_blank">
+              <a href={this.props.linkDemo}>
                 <i className="fa fa-cogs fa-2x"></i>
                 <p>View Demo</p>
               </a>
-              <a className="hidden-xs" href={this.props.linkProject} target="_blank">
+              <a href={this.props.linkProject}>
                 <i className="fa fa-file-code-o fa-2x"></i>
                 <p>View Source</p>
               </a>

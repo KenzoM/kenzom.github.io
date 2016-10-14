@@ -34,6 +34,13 @@ class Projects extends Component {
             </div>
             <div className="my-container">
               {this.renderProjects()}
+              <div>
+                <a href="http://codepen.io/neotriz/pens/popular/" className="codepen-btn">
+                  <span className="content">
+                    More stuff in Codepen  <i className="fa fa-codepen fa-2x"></i>
+                  </span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
