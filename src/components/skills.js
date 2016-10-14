@@ -12,8 +12,8 @@ export default class Skills extends Component{
               <hr />
             </div>
             <div className="col-sm-12 text-center">
-              <img className="skills-icon" src="/src/image/js.png" alt="" />
-              <img className="skills-icon" src="/src/image/react.png" alt="" />
+              <img className="skills-icon" src="/src/image/js.svg" alt="" />
+              <img className="skills-icon" src="/src/image/react.svg" alt="" />
               <img className="skills-icon" src="/src/image/nodejs.png" alt="" />
               <img className="skills-icon" src="/src/image/Logo_D3.svg" alt="" />
               <img className="skills-icon" src="/src/image/bootsrap.svg" alt="" />
