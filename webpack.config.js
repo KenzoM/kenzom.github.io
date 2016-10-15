@@ -1,15 +1,16 @@
 var path = require('path');
 var webpack = require('webpack');
 var ghpages = require('gh-pages');
+var WriteFilePlugin = require('write-file-webpack-plugin');
 module.exports = {
   devtool: 'source-map',
   entry: [
     './src/index.js'
   ],
   output: {
-    path: __dirname,
     publicPath: '/',
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    path: path.join(__dirname, './dist')
   },
   module: {
     loaders: [{
@@ -37,7 +38,8 @@ module.exports = {
       'process.env': {
         'NODE_ENV': JSON.stringify("production")
       }
-    })
+    }),
+    new WriteFilePlugin()
   ],
   resolve: {
     extensions: ['', '.js', '.jsx'],
@@ -47,6 +49,7 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    contentBase: './'
+    contentBase: './',
+    outputPath: path.join(__dirname, './dist')
   }
 };
