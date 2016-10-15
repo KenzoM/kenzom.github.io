@@ -1,5 +1,6 @@
 var path = require('path');
 var webpack = require('webpack');
+var ghpages = require('gh-pages');
 module.exports = {
   devtool: 'source-map',
   entry: [
