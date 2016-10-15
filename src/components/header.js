@@ -33,7 +33,7 @@ export default class Header extends Component{
                   <Link activeClass="active" className="Skills" to="skills-section" spy={true} smooth={true} offset={-45} duration={1000} >Skills</Link>
                 </li>
                 <li>
-                  <Link activeClass="active" className="Project" to="project-section" spy={true} smooth={true} offset={-45} duration={1000} >Project</Link>
+                  <Link activeClass="active" className="Project" to="project-section" spy={true} smooth={true} offset={-45} duration={1000} >Projects</Link>
                 </li>
                 <li>
                   <Link activeClass="active" className="Contact" to="contact-section" spy={true} smooth={true} offset={-45} duration={1000} >Contact</Link>

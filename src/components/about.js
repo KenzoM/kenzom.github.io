@@ -15,7 +15,7 @@ export default class About extends Component {
               <hr className="highlight-text" />
             </div>
             <div className="col-sm-12 col-md-6 text-center">
-              <img className="img-responsive center-block bio-picture" src="src/image/kenzo.png" />
+              <img className="img-responsive center-block bio-picture" src="src/image/kenzo-comp.png" />
             </div>
             <div className="col-sm-12 col-md-6 text-center">
               <h3>Hi! My name is <span className="highlight-text"> Kenzo</span></h3>
