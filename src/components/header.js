@@ -14,7 +14,15 @@ export default class Header extends Component{
                 <span className="icon-bar"></span>
                 <span className="icon-bar"></span>
               </button>
-              <Link activeClass="active" className="Intro navbar-brand nav-cursor" to="intro-section" spy={true} smooth={true} offset={-45} duration={1000} >Kenzo Logo</Link>
+              <Link
+                activeClass="active"
+                className="Intro navbar-brand nav-cursor"
+                to="intro-section"
+                spy={true}
+                smooth={true}
+                offset={-45}
+                duration={1000}> <img className="brand-logo" src="/src/image/kenzo-logo.svg" />
+              </Link>
             </div>
             <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul className="nav-cursor nav navbar-nav navbar-right">

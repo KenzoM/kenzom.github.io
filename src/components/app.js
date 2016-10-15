@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import style from '../stylesheets/styles.scss';
 
-
 import Header from './header';
 import Intro from './intro';
 import About from './about';
