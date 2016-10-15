@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import Scroll from 'react-scroll';
+const Element    = Scroll.Element;
 
 export default class Skills extends Component{
   render(){
     return (
-      <div id="skills">
-        <span className="anchor" id="skills-section"></span>
+      <Element name="skills-section" className="element">
         <div className="container">
           <div className="row">
             <div className="col-sm-12 text-center">
@@ -26,7 +27,7 @@ export default class Skills extends Component{
             </div>
           </div>
         </div>
-      </div>
+      </Element>
     )
   }
 }

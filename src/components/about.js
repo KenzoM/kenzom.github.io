@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import Scroll from 'react-scroll';
+const Element  = Scroll.Element;
+const Link   = Scroll.Link;
+
 
 export default class About extends Component {
   render(){
     return(
-      <div id="about">
-        <span className="anchor" id="about-section"></span>
+      <Element name="about-section" className="element">
         <div className="container">
           <div className="row">
             <div className="col-sm-12 text-center">
@@ -26,16 +29,14 @@ export default class About extends Component {
                 and play flamenco music.
                 <br />
               </p>
-              <div>
-                <a href="#contact-section" className="contact-btn">
-                  <span className="content">Contact me!</span>
-                </a>
+              <div className="contact-btn">
+                <Link activeClass="active" className="Contact" to="contact-section" spy={true} smooth={true} offset={-45} duration={2000}><span className="content">Contact me!</span></Link>
               </div>
             </div>
 
           </div>
         </div>
-      </div>
+      </Element>
     )
   }
 }

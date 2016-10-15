@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import Scroll from 'react-scroll';
+const Element    = Scroll.Element;
 
 export default class Intro extends Component{
   render(){
     return (
-      <div id="intro">
+      <Element id="intro" name="intro-section" className="element">
         <div className="typewriter">
           <h1>Hello world! </h1>
           <div className="home-icons">
@@ -12,7 +14,7 @@ export default class Intro extends Component{
             <a href="https://www.linkedin.com/in/kenzo-mendoza-654b1428"><i className="icon fa fa-linkedin-square fa-5x"></i></a>
           </div>
         </div>
-      </div>
+      </Element>
     )
   }
 }

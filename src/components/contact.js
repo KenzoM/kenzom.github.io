@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import Scroll from 'react-scroll';
+const Element    = Scroll.Element;
 
 export default class Contact extends Component {
   render(){
     return(
-      <div id="contact">
-        <span className="anchor" id="contact-section"></span>
+      <Element name="contact-section" className="element">
         <div className="container">
           <div className="row">
             <div className="col-sm-12 text-center">
@@ -21,7 +22,7 @@ export default class Contact extends Component {
             </div>
           </div>
         </div>
-      </div>
+      </Element>
     )
   }
 }

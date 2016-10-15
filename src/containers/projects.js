@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import ProjectCard from '../components/project-card';
+import Scroll from 'react-scroll';
+const Element    = Scroll.Element;
 
 class Projects extends Component {
   constructor(props) {
@@ -24,8 +26,7 @@ class Projects extends Component {
   }
   render(){
     return(
-      <div id="projects">
-        <span className="anchor" id="project-section"></span>
+      <Element name="project-section" className="element">
         <div className="container">
           <div className="row">
             <div className="col-sm-12 text-center">
@@ -44,7 +45,7 @@ class Projects extends Component {
             </div>
           </div>
         </div>
-      </div>
+      </Element>
     )
   }
 }

@@ -16,6 +16,10 @@ body{
   font-size: 1.7em;
 }
 
+.nav-cursor{
+  cursor: pointer;
+}
+
 .highlight-text{
   color: $accent-color;
 }
@@ -58,6 +62,7 @@ hr{
 .contact-btn{
   display: inline-block;
   margin-top: 15px;
+  cursor: pointer;
   width: 180px;
   height: 60px;
   position: relative;
