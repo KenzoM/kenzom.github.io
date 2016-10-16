@@ -256,11 +256,23 @@ hr{
   50% { border-color: $accent-color; }
 }
 
+@media screen and (max-height: 600px) {
+  .project-hover {
+    opacity: 0.7;
+  }
+  .project-hover-content{
+    top: 9%;
+  }
+}
+
 @media screen and (max-width: 780px) {
   .project{
     cursor: none;
     width: 100%;
     margin-top: 20px;
+  }
+  .project-hover {
+    opacity: 0.7;
   }
 
   .project-hover-content {
