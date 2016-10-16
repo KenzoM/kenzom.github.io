@@ -23,7 +23,7 @@ export default class ProjectCard extends Component{
               </div>
             </div>
           </div>
-          <img src={this.props.picture} />
+          <img src={this.props.picture} alt={this.props.projectTitle} />
         </div>
         <div className="project-caption">
           <h2 className="project-title text-center">{this.props.projectTitle}</h2>
