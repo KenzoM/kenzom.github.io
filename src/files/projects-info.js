@@ -41,8 +41,8 @@ export const INFO = [
   },
   {
     picture: '/src/image/recipe-box.png' ,
-    linkProject: 'https://bing.com' ,
-    linkDemo: 'https://google.com' ,
+    linkProject: 'https://github.com/Neotriz/RecipeBox' ,
+    linkDemo: 'https://neotriz.github.io/RecipeBox/' ,
     projectTitle: 'Recipe Box' ,
     projectDescription: "An app that lets user store recipes",
     projectTags: '#React, #Redux, #localStorage'
