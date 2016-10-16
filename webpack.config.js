@@ -10,7 +10,8 @@ module.exports = {
   output: {
     publicPath: '/',
     filename: 'bundle.js',
-    path: path.join(__dirname, './dist')
+    sourceMapFilename: "./bundle.js.map",
+    path: path.join(__dirname, './static')
   },
   module: {
     loaders: [{
