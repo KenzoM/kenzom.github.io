@@ -17,7 +17,7 @@ export const INFO = [
   },
   {
     picture: '/src/image/tic-tac-toe.png' ,
-    linkProject: '#' ,
+    linkProject: 'http://codepen.io/neotriz/pen/yJPLOO' ,
     linkDemo: 'http://s.codepen.io/neotriz/debug/yJPLOO' ,
     projectTitle: 'Tic-Tac-Toe' ,
     projectDescription: 'Simple tic-tac-toe with a formidable AI opponent',

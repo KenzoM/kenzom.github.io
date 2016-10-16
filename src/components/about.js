@@ -25,8 +25,8 @@ export default class About extends Component {
                 I specialize in front-end but I am currently working on more back-end
                 to become a full-stack web-developer.
                 <br />
-                In my spare time, I go out running here in San Francisco, travel around the world,
-                and play flamenco music.
+                In my spare time, I go out running here in San Francisco, <a href="https://neotriz.tumblr.com/">travel around the world</a>,
+                and play <a href="https://www.youtube.com/user/KAMFlamenco">flamenco music</a>.
                 <br />
               </p>
               <div className="contact-btn">
