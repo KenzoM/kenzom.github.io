@@ -22,7 +22,7 @@ export default class About extends Component {
               <p className="about-bio">I&#39;ve learned how to program
                 through various resources, most notably <span className="highlight-text2">FreeCodeCamp</span>, <span className="highlight-text2">Udemy</span> and <span className="highlight-text2">Udacity</span>.
                 <br />
-                I specialize in front-end but I am currently working on more back-end
+                My concentration of studies is in front-end but I am currently working on more back-end
                 to become a full-stack web-developer.
                 <br />
                 In my spare time, I go out running here in San Francisco, <a href="https://neotriz.tumblr.com/">travel around the world</a>,
