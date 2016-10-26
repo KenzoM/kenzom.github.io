@@ -18,12 +18,16 @@ export default class About extends Component {
               <img className="img-responsive center-block bio-picture" src="src/image/kenzo-comp.png" />
             </div>
             <div className="col-sm-12 col-md-6 text-center">
-              <h3>Hi! My name is <span className="highlight-text"> Kenzo</span></h3>
+              <h3>Hi! My name is <span className="highlight-text">Kenzo</span></h3>
               <p className="about-bio">I&#39;ve learned how to program
-                through various resources, most notably <span className="highlight-text2">FreeCodeCamp</span>, <span className="highlight-text2">Udemy</span> and <span className="highlight-text2">Udacity</span>.
+                through various resources, most notably <a href="https://www.freecodecamp.com"> <span className="highlight-text2">FreeCodeCamp</span></a>,
+                <a href="https://wwww.udemy.com"><span className="highlight-text2">Udemy</span></a> and <a href="https://www.udacity.com"><span className="highlight-text2">Udacity</span></a>.
                 <br />
-                My concentration of studies is in front-end web-developing but I am currently working on more back-end
-                to become a full-stack web-developer.
+                My concentration of studies is in front-end development but I am currently working on back-end development
+                to become a <u>full-stack web-developer</u>.
+                <br />
+                I host/volunteer <a href="https://www.meetup.com/Free-Code-Camp-SF/"><span className="highlight-text2">FreeCodeCamp's Meetup</span></a> weekly in San Francisco to help other self-taught programmers like myself on various topics such as
+                projects, algorithm, data-structure. I enjoying tackling problems together!
                 <br />
                 In my spare time, I go out running here in San Francisco, <a href="https://neotriz.tumblr.com/">travel around the world</a>,
                 and play <a href="https://www.youtube.com/user/KAMFlamenco">flamenco music</a>.

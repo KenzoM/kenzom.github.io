@@ -48,27 +48,27 @@ export const INFO = [
     projectTags: '#React, #Redux, #localStorage'
   },
   {
-    picture: '/src/image/placeholder.png' ,
-    linkProject: '#' ,
-    linkDemo: '#' ,
-    projectTitle: 'Coming Soon#1' ,
-    projectDescription: "",
-    projectTags: ''
+    picture: '/src/image/code-background.png' ,
+    linkProject: 'https://github.com/Neotriz/url-shortener' ,
+    linkDemo: 'https://murmuring-reef-69157.herokuapp.com/' ,
+    projectTitle: 'URL Shortener' ,
+    projectDescription: "An API that lets user shorten their URL link",
+    projectTags: '#mongodb, #express.js, #node.js'
   },
   {
-    picture: '/src/image/placeholder.png' ,
-    linkProject: '#' ,
-    linkDemo: '#' ,
-    projectTitle: 'Coming Soon#2' ,
-    projectDescription: "",
-    projectTags: ''
+    picture: '/src/image/code-background.png' ,
+    linkProject: 'https://github.com/Neotriz/FCCImageSearchAbstraction' ,
+    linkDemo: 'https://image-abtract-fcc.herokuapp.com/' ,
+    projectTitle: 'Image Search Abstract' ,
+    projectDescription: "An API that abtracts Bing's Image search into JSON style",
+    projectTags: '#mongodb, #express.js, #node.js'
   },
   {
-    picture: '/src/image/placeholder.png' ,
-    linkProject: '#' ,
-    linkDemo: '#' ,
-    projectTitle: 'Coming Soon#3' ,
-    projectDescription: "",
-    projectTags: ''
+    picture: '/src/image/code-background.png' ,
+    linkProject: 'https://github.com/Neotriz/timestamp-api' ,
+    linkDemo: 'https://timestamper-api-fcc.herokuapp.com/' ,
+    projectTitle: 'MicroService TimeStamp' ,
+    projectDescription: "Simple API that tranforms time strings into Unix-format",
+    projectTags: "#node.js, #express.js"
   }
 ];

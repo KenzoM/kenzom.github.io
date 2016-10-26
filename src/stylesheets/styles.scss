@@ -2,7 +2,7 @@ $base-color: #A3E3F9;
 $accent-color: #e05b43;
 $dark-grey: #636F85;
 $light-grey: #D4D7DD;
-$light-green: #23b43f;
+$high-light2: #617dc7;
 $intro: #EEEEEE;
 $white: white;
 
@@ -24,7 +24,7 @@ body{
   color: $accent-color;
 }
 .highlight-text2{
-  color: $light-green;
+  color: $high-light2;
   font-size: 1.3em;
 }
 
@@ -102,9 +102,9 @@ hr{
   width: 250px;
   height: 60px;
   position: relative;
-  border: 1px solid #10a64c;
+  border: 1px solid rgb(58, 107, 215);
   border-radius: 5px;
-  background-color: green;
+  background-color: rgb(58, 107, 215);
   .content{
     display: block;
     position: absolute;
@@ -112,7 +112,7 @@ hr{
     width: 100%;
     height: 100%;
     line-height: 69px;
-    background: $light-green ;
+    background: $high-light2 ;
     text-align: center;
     font-size: 1em;
     color: $white;
