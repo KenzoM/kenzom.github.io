@@ -265,7 +265,17 @@ hr{
   }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-height: 420px) {
+  .project{
+    width: 60%;
+  }
+
+  .project-hover-content {
+    font-size: 1.0em;
+  }
+}
+
+@media screen and (max-width: 780px) and (min-height: 420px) {
   .project{
     cursor: none;
     width: 100%;
