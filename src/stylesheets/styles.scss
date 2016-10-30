@@ -148,8 +148,9 @@ hr{
   justify-content: center;
 }
 .project{
-  width: 33.333%;
+  width: 31.333%;
   padding: 10px;
+  margin: 10px;
   img{
     cursor: pointer;
     width: 100%;
@@ -233,6 +234,7 @@ hr{
   vertical-align: middle;
   h1 {
   display: inline-block;
+  font-size: 2em;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .35em solid $accent-color; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
