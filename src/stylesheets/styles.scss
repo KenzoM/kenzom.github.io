@@ -233,7 +233,6 @@ hr{
   text-align: center;
   vertical-align: middle;
   h1 {
-  display: inline-block;
   font-size: 2em;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .35em solid $accent-color; /* The typwriter cursor */
@@ -243,6 +242,12 @@ hr{
   animation:
     typing 2s steps(40, end) 1,
     blink-caret .75s step-end infinite;
+  }
+  .mobile-intro{
+    display: none;
+  }
+  .normal-intro{
+    display: inline-block;
   }
 }
 
@@ -294,5 +299,16 @@ hr{
 
   .more-projects{
     display: none;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .typewriter{
+    .normal-intro{
+      display: none;
+    }
+    .mobile-intro{
+      display: inline-block;
+    }
   }
 }

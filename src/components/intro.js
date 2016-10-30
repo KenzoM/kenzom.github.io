@@ -7,8 +7,8 @@ export default class Intro extends Component{
     return (
       <Element id="intro" name="intro-section" className="element">
         <div className="typewriter">
-          <h1>Welcome to my portfolio page! </h1>
-
+          <h1 className="mobile-intro">Hello world!</h1>
+          <h1 className="normal-intro">Welcome to my portfolio page! </h1>
           <div className="home-icons">
             <a href="https://www.dropbox.com/s/241w28bx3wvd7f4/Resume%202012%20Kenzo.pdf?dl=1"><i className="icon fa fa-file-pdf-o fa-5x"></i></a>
             <a href="https://github.com/neotriz"><i className="icon fa fa-github fa-5x"></i></a>
