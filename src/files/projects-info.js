@@ -70,5 +70,13 @@ export const INFO = [
     projectTitle: 'MicroService TimeStamp' ,
     projectDescription: "Simple API that tranforms time strings into Unix-format",
     projectTags: "#node.js, #express.js"
+  },
+  {
+    picture: '/src/image/leaderboard.png' ,
+    linkProject: 'https://github.com/Neotriz/FCCLeaderBoard' ,
+    linkDemo: 'https://neotriz.github.io/FCCLeaderBoard/' ,
+    projectTitle: 'FreeCodeCamp LeaderBoard' ,
+    projectDescription: "Lists 100 campers for the last 30 days or all time",
+    projectTags: "#react.js, #axios"
   }
 ];
