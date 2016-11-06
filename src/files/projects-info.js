@@ -2,8 +2,8 @@ export const INFO = [
   {
     picture: '/src/image/game-of-life.png' ,
     linkProject: 'https://github.com/Neotriz/FCC-Game-of-Life' ,
-    linkDemo: 'https://game-of-life-fcc-project.herokuapp.com/' ,
-    projectTitle: 'Conway\' Game of Life' ,
+    linkDemo: 'http://kenzomendoza.com/FCC-Game-of-Life/' ,
+    projectTitle: 'Conway\'s Game of Life' ,
     projectDescription: "A simualtion of John Conway's Game of Life",
     projectTags: '#React, #Redux, #ES6'
   },
@@ -12,7 +12,7 @@ export const INFO = [
     linkProject: 'https://github.com/Neotriz/RecipeBox' ,
     linkDemo: 'https://neotriz.github.io/RecipeBox/' ,
     projectTitle: 'Recipe Box' ,
-    projectDescription: "An app that lets user store recipes",
+    projectDescription: "An app that lets users store recipes",
     projectTags: '#React, #Redux, #localStorage'
   },
   {
@@ -21,14 +21,14 @@ export const INFO = [
     linkDemo: 'https://neotriz.github.io/FCCLeaderBoard/' ,
     projectTitle: 'FreeCodeCamp LeaderBoard' ,
     projectDescription: "Lists 100 campers for the last 30 days or all time",
-    projectTags: "#react.js, #axios"
+    projectTags: "#React, #axios"
   },
   {
     picture: '/src/image/code-background.png' ,
     linkProject: 'https://github.com/Neotriz/url-shortener' ,
     linkDemo: 'https://murmuring-reef-69157.herokuapp.com/' ,
     projectTitle: 'URL Shortener' ,
-    projectDescription: "An API that lets user shorten their URL link",
+    projectDescription: "An API that lets users shorten their URL link",
     projectTags: '#mongodb, #express.js, #node.js'
   },
   {
