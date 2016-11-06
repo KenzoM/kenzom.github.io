@@ -8,44 +8,20 @@ export const INFO = [
     projectTags: '#React, #Redux, #ES6'
   },
   {
-    picture: '/src/image/simon.png' ,
-    linkProject: 'https://github.com/Neotriz/SimonFCC' ,
-    linkDemo: 'http://s.codepen.io/neotriz/debug/RRxOJb' ,
-    projectTitle: 'Simon Game' ,
-    projectDescription: "A popular child-based game Simon-Says",
-    projectTags: '#Object-Oriented, #jQuery'
-  },
-  {
-    picture: '/src/image/tic-tac-toe.png' ,
-    linkProject: 'http://codepen.io/neotriz/pen/yJPLOO' ,
-    linkDemo: 'http://s.codepen.io/neotriz/debug/yJPLOO' ,
-    projectTitle: 'Tic-Tac-Toe' ,
-    projectDescription: 'Simple tic-tac-toe with a formidable AI opponent',
-    projectTags: '#Object-Oriented, #jQuery, #Min-Max-Algorithm'
-  },
-  {
-    picture: '/src/image/heatmap.png' ,
-    linkProject: 'https://github.com/Neotriz/FCC-HeatMap' ,
-    linkDemo: 'http://s.codepen.io/neotriz/debug/PGOLBb' ,
-    projectTitle: 'HeatMap' ,
-    projectDescription: "A visualization graph of heat index",
-    projectTags: '#d3.js'
-  },
-  {
-    picture: '/src/image/weather.png' ,
-    linkProject: 'http://codepen.io/neotriz/pen/EywOQQ' ,
-    linkDemo: 'http://s.codepen.io/neotriz/debug/EywOQQ' ,
-    projectTitle: 'Local Weather' ,
-    projectDescription: "A simple local weather app using Open Weather API",
-    projectTags: '#ajax, #jQuery'
-  },
-  {
     picture: '/src/image/recipe-box.png' ,
     linkProject: 'https://github.com/Neotriz/RecipeBox' ,
     linkDemo: 'https://neotriz.github.io/RecipeBox/' ,
     projectTitle: 'Recipe Box' ,
     projectDescription: "An app that lets user store recipes",
     projectTags: '#React, #Redux, #localStorage'
+  },
+  {
+    picture: '/src/image/leaderboard.png' ,
+    linkProject: 'https://github.com/Neotriz/FCCLeaderBoard' ,
+    linkDemo: 'https://neotriz.github.io/FCCLeaderBoard/' ,
+    projectTitle: 'FreeCodeCamp LeaderBoard' ,
+    projectDescription: "Lists 100 campers for the last 30 days or all time",
+    projectTags: "#react.js, #axios"
   },
   {
     picture: '/src/image/code-background.png' ,
@@ -72,18 +48,74 @@ export const INFO = [
     projectTags: "#node.js, #express.js"
   },
   {
-    picture: '/src/image/leaderboard.png' ,
-    linkProject: 'https://github.com/Neotriz/FCCLeaderBoard' ,
-    linkDemo: 'https://neotriz.github.io/FCCLeaderBoard/' ,
-    projectTitle: 'FreeCodeCamp LeaderBoard' ,
-    projectDescription: "Lists 100 campers for the last 30 days or all time",
-    projectTags: "#react.js, #axios"
+    picture: '/src/image/heatmap.png' ,
+    linkProject: 'https://github.com/Neotriz/FCC-HeatMap' ,
+    linkDemo: 'http://s.codepen.io/neotriz/debug/PGOLBb' ,
+    projectTitle: 'HeatMap' ,
+    projectDescription: "A visualization graph of heat index",
+    projectTags: '#d3.js'
+  },
+  {
+    picture: '/src/image/scatter-plot.png' ,
+    linkProject: 'https://github.com/Neotriz/FCC-ScatterPlot' ,
+    linkDemo: 'http://s.codepen.io/neotriz/debug/xEPwrx' ,
+    projectTitle: 'Scatter-Plot' ,
+    projectDescription: "A visualization graph using Scatter-Plot",
+    projectTags: '#d3.js'
+  },
+  {
+    picture: '/src/image/force-map.png' ,
+    linkProject: 'https://github.com/Neotriz/FCC-Force-Directed-Graph' ,
+    linkDemo: 'http://s.codepen.io/neotriz/debug/jrYvjJ' ,
+    projectTitle: 'Force-Directed-Graph' ,
+    projectDescription: "A visualization graph using Force-Directed-Graph",
+    projectTags: '#d3.js'
+  },
+  {
+    picture: '/src/image/bar-graph.png' ,
+    linkProject: 'https://github.com/Neotriz/d3-bar-chart-FCC/tree/master/app' ,
+    linkDemo: 'http://s.codepen.io/neotriz/debug/PGJqQq' ,
+    projectTitle: 'Bar-Chart' ,
+    projectDescription: "A visualization graph using Bar-Chart",
+    projectTags: '#d3.js'
+  },
+  {
+    picture: '/src/image/simon.png' ,
+    linkProject: 'https://github.com/Neotriz/SimonFCC' ,
+    linkDemo: 'http://s.codepen.io/neotriz/debug/RRxOJb' ,
+    projectTitle: 'Simon Game' ,
+    projectDescription: "A popular child-based game Simon-Says",
+    projectTags: '#Object-Oriented, #jQuery'
+  },
+  {
+    picture: '/src/image/tic-tac-toe.png' ,
+    linkProject: 'http://codepen.io/neotriz/pen/yJPLOO' ,
+    linkDemo: 'http://s.codepen.io/neotriz/debug/yJPLOO' ,
+    projectTitle: 'Tic-Tac-Toe' ,
+    projectDescription: 'Simple tic-tac-toe with a formidable AI opponent',
+    projectTags: '#Object-Oriented, #jQuery, #Min-Max-Algorithm'
+  },
+  {
+    picture: '/src/image/weather.png' ,
+    linkProject: 'http://codepen.io/neotriz/pen/EywOQQ' ,
+    linkDemo: 'http://s.codepen.io/neotriz/debug/EywOQQ' ,
+    projectTitle: 'Local Weather' ,
+    projectDescription: "A simple local weather app using Open Weather API",
+    projectTags: '#ajax, #jQuery'
   },
   {
     picture: '/src/image/pomodoro.png' ,
     linkProject: 'https://github.com/Neotriz/Podomoro-Clock' ,
     linkDemo: 'http://kenzomendoza.com/Podomoro-Clock/app/' ,
     projectTitle: 'Pomodoro-Clock' ,
+    projectDescription: 'Podomoro-Clock implementation',
+    projectTags: '#jQuery'
+  },
+  {
+    picture: '/src/image/quote.png' ,
+    linkProject: 'http://codepen.io/neotriz/pen/QEWBLm' ,
+    linkDemo: 'http://s.codepen.io/neotriz/debug/QEWBLm' ,
+    projectTitle: 'Random-Generated Quote' ,
     projectDescription: 'Podomoro-Clock implementation',
     projectTags: '#jQuery'
   }
