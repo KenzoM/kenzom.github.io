@@ -78,5 +78,13 @@ export const INFO = [
     projectTitle: 'FreeCodeCamp LeaderBoard' ,
     projectDescription: "Lists 100 campers for the last 30 days or all time",
     projectTags: "#react.js, #axios"
+  },
+  {
+    picture: '/src/image/pomodoro.png' ,
+    linkProject: 'https://github.com/Neotriz/Podomoro-Clock' ,
+    linkDemo: 'http://kenzomendoza.com/Podomoro-Clock/app/' ,
+    projectTitle: 'Pomodoro-Clock' ,
+    projectDescription: 'Podomoro-Clock implementation',
+    projectTags: '#jQuery'
   }
 ];
