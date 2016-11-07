@@ -45,7 +45,7 @@ export const INFO = [
     linkDemo: 'https://blooming-retreat-88256.herokuapp.com/' ,
     projectTitle: 'Request Header Parser Microservice' ,
     projectDescription: "An API that returns the user its IP Address, language and OS",
-    projectTags: '#mongodb, #express.js, #node.js'
+    projectTags: '#express.js, #node.js'
   },
   {
     picture: '/src/image/code-background.png' ,
