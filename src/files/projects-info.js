@@ -36,7 +36,15 @@ export const INFO = [
     linkProject: 'https://github.com/Neotriz/FCCImageSearchAbstraction' ,
     linkDemo: 'https://image-abtract-fcc.herokuapp.com/' ,
     projectTitle: 'Image Search Abstract' ,
-    projectDescription: "An API that abtracts Bing's Image search into JSON style",
+    projectDescription: "An API that abtracts an image seach into JSON style",
+    projectTags: '#mongodb, #express.js, #node.js'
+  },
+  {
+    picture: '/src/image/code-background.png' ,
+    linkProject: 'https://github.com/Neotriz/FCCRequestHeaderParser' ,
+    linkDemo: 'https://blooming-retreat-88256.herokuapp.com/' ,
+    projectTitle: 'Request Header Parser Microservice' ,
+    projectDescription: "An API that returns the user its IP Address, language and OS",
     projectTags: '#mongodb, #express.js, #node.js'
   },
   {
