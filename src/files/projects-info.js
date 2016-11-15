@@ -1,10 +1,18 @@
 export const INFO = [
   {
+    picture: '/src/image/dungeon.png' ,
+    linkProject: 'https://github.com/Neotriz/fcc-roguelike-dungeon-crawler' ,
+    linkDemo: 'http://kenzomendoza.com/fcc-roguelike-dungeon-crawler/' ,
+    projectTitle: 'Roguelike Dungeon Crawler Game' ,
+    projectDescription: "A Roguelike Dungeon Crawler Game",
+    projectTags: '#React, #Redux, #ES6, pair-programmed'
+  },
+  {
     picture: '/src/image/game-of-life.png' ,
     linkProject: 'https://github.com/Neotriz/FCC-Game-of-Life' ,
     linkDemo: 'http://kenzomendoza.com/FCC-Game-of-Life/' ,
     projectTitle: 'Conway\'s Game of Life' ,
-    projectDescription: "A simualtion of John Conway's Game of Life",
+    projectDescription: "A simulation of John Conway's Game of Life",
     projectTags: '#React, #Redux, #ES6'
   },
   {
