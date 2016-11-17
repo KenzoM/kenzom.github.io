@@ -64,6 +64,14 @@ export const INFO = [
     projectTags: "#node.js, #express.js"
   },
   {
+    picture: '/src/image/global-map.png' ,
+    linkProject: 'https://github.com/Neotriz/FCC-Map-Data' ,
+    linkDemo: 'http://kenzomendoza.com/FCC-Map-Data/app/' ,
+    projectTitle: 'Map Data Across the Globe Complete' ,
+    projectDescription: "A visualization of meteor strikes across the world",
+    projectTags: '#d3.js'
+  },
+  {
     picture: '/src/image/heatmap.png' ,
     linkProject: 'https://github.com/Neotriz/FCC-HeatMap' ,
     linkDemo: 'http://s.codepen.io/neotriz/debug/PGOLBb' ,
