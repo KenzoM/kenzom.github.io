@@ -1,11 +1,19 @@
 export const INFO = [
   {
+    picture: '/src/image/votez.png' ,
+    linkProject: 'https://github.com/Neotriz/fcc-voter' ,
+    linkDemo: 'https://votez-app.herokuapp.com/' ,
+    projectTitle: 'Votez-App' ,
+    projectDescription: "A Simple Voting App using MERN",
+    projectTags: '#React, #Redux, #MERN, #authentication, #full-stack'
+  },
+  {
     picture: '/src/image/dungeon.png' ,
     linkProject: 'https://github.com/Neotriz/fcc-roguelike-dungeon-crawler' ,
     linkDemo: 'http://kenzomendoza.com/fcc-roguelike-dungeon-crawler/' ,
     projectTitle: 'Roguelike Dungeon Crawler Game' ,
     projectDescription: "A Roguelike Dungeon Crawler Game",
-    projectTags: '#React, #Redux, #ES6, pair-programmed'
+    projectTags: '#React, #Redux, #ES6, pair-programming'
   },
   {
     picture: '/src/image/game-of-life.png' ,

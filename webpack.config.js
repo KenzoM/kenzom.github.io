@@ -11,7 +11,7 @@ module.exports = {
     publicPath: '/',
     filename: 'bundle.js',
     sourceMapFilename: "./bundle.js.map",
-    path: path.join(__dirname, './static')
+    path: path.join(__dirname, './dist')
   },
   module: {
     loaders: [{
