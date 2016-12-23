@@ -32,11 +32,13 @@ export default class About extends Component {
                 and play <a href="https://www.youtube.com/user/KAMFlamenco">flamenco music</a>.
                 <br />
               </p>
-              <div className="contact-btn">
+              <div className="btn-three-d">
+                  <span className="content"><a href="https://www.dropbox.com/s/241w28bx3wvd7f4/Resume%202012%20Kenzo.pdf?dl=1">Resume <i className="fa fa-file-pdf-o fa-1x"></i></a></span>
+              </div>
+              <div className="btn-three-d">
                 <Link activeClass="active" className="Contact" to="contact-section" spy={true} smooth={true} offset={-45} duration={2000}><span className="content">Contact me!</span></Link>
               </div>
             </div>
-
           </div>
         </div>
       </Element>
