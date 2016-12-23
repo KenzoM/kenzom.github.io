@@ -27,9 +27,6 @@ export default class Header extends Component{
             <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul className="nav-cursor nav navbar-nav navbar-right">
                 <li>
-                  <Link activeClass="active" className="About" to="about-section" spy={true} smooth={true} offset={-45} duration={1000} >About</Link>
-                </li>
-                <li>
                   <Link activeClass="active" className="Skills" to="skills-section" spy={true} smooth={true} offset={-45} duration={1000} >Skills</Link>
                 </li>
                 <li>
