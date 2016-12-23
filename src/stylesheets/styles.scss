@@ -258,6 +258,15 @@ hr{
   }
 }
 
+.contact-icn{
+  padding-left: 25px;
+  transition: all 0.1s linear;
+  cursor: pointer;
+  &:hover {
+    color: $accent-color;
+  }
+}
+
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }

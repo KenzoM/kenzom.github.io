@@ -12,13 +12,19 @@ export default class Contact extends Component {
               <h1>Contact</h1>
               <hr />
             </div>
-            <div className="col-sm-12">
-              <ul className="contact-list">
-                <li><p><a href="https://www.dropbox.com/s/241w28bx3wvd7f4/Resume%202012%20Kenzo.pdf?dl=1"><i className="fa fa-file-pdf-o fa-2x"></i></a> Resume</p></li>
-                <li><p><i className="fa fa-envelope-o fa-2x"></i> kenzom954@gmail.com</p></li>
-                <li><p><a href="https://twitter.com/KenzoJam"><i className="fa fa-twitter fa-2x"></i></a> @KenzoJam</p></li>
-                <li><p><a href="https://github.com/neotriz"><i className="fa fa-linkedin fa-2x"></i></a> ../in/kenzo-mendoza</p></li>
-              </ul>
+            <div className="my-container">
+              <a target="_blank" href="https://www.dropbox.com/s/241w28bx3wvd7f4/Resume%202012%20Kenzo.pdf?dl=1">
+                <i className="contact-icn fa fa-file-pdf-o fa-5x"></i>
+              </a>
+              <a target="_blank" href="https://twitter.com/KenzoJam">
+                <i className="contact-icn fa fa-twitter-square fa-5x"></i>
+              </a>
+              <a target="_blank" href="https://github.com/Neotriz">
+                <i className="contact-icn fa fa-github fa-5x"></i>
+              </a>
+              <a target="_blank" href="https://www.linkedin.com/in/kenzo-mendoza">
+                <i className="contact-icn fa fa-linkedin fa-5x"></i>
+              </a>
             </div>
           </div>
         </div>
