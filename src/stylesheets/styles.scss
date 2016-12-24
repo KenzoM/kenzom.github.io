@@ -67,6 +67,9 @@ hr{
   br {
     line-height: 2em;
   }
+  a {
+    cursor: pointer;
+  }
 }
 
 .btn-three-d{
@@ -153,6 +156,10 @@ hr{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
+  a {
+    width: 22%;
+  }
 }
 .project{
   width: 30.333%;
@@ -259,7 +266,6 @@ hr{
 }
 
 .contact-icn{
-  padding-left: 25px;
   transition: all 0.1s linear;
   cursor: pointer;
   &:hover {
