@@ -46,9 +46,9 @@ body{
   }
 }
 
-hr{
-  border: 1px solid $dark-grey;
-}
+// hr{
+//   border: 1px solid $dark-grey;
+// }
 
 .home-icons{
   margin-top: 55px;
@@ -332,5 +332,11 @@ hr{
     .mobile-intro{
       display: inline-block;
     }
+  }
+}
+
+@media screen and (min-width: 1500px){
+  .container{
+    width: 1470px
   }
 }
