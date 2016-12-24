@@ -31,7 +31,6 @@ class Projects extends Component {
           <div className="row">
             <div className="col-sm-12 text-center">
               <h1>Projects</h1>
-              <hr />
             </div>
             <div className="my-container">
               {this.renderProjects()}

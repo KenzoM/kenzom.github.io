@@ -10,7 +10,6 @@ export default class Skills extends Component{
           <div className="row">
             <div className="col-sm-12 text-center">
               <h1>Skills</h1>
-              <hr />
             </div>
             <div className="col-sm-12 text-center">
               <img className="skills-icon" src="/src/image/js.svg" alt="javascript logo" />
@@ -23,7 +22,6 @@ export default class Skills extends Component{
               <img className="skills-icon" src="/src/image/git.svg" alt="git logo" />
             </div>
             <div className="col-sm-12 text-center">
-              <hr />
             </div>
           </div>
         </div>

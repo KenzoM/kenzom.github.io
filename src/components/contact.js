@@ -10,7 +10,6 @@ export default class Contact extends Component {
           <div className="row">
             <div className="col-sm-12 text-center">
               <h1>Contact</h1>
-              <hr />
             </div>
             <div className="my-container">
               <a target="_blank" href="https://www.dropbox.com/s/241w28bx3wvd7f4/Resume%202012%20Kenzo.pdf?dl=1">
