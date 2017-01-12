@@ -1,5 +1,13 @@
 export const INFO = [
   {
+    picture: '/src/image/nightapp.png' ,
+    linkProject: 'https://github.com/Neotriz/fcc-nightlife' ,
+    linkDemo: 'https://night-app-life-app-fcc.herokuapp.com/' ,
+    projectTitle: 'NightLife Coordination App' ,
+    projectDescription: "A Single-Web Page using MERN",
+    projectTags: '#React, #Redux, #MERN, #authentication, #full-stack'
+  },
+  {
     picture: '/src/image/votez.png' ,
     linkProject: 'https://github.com/Neotriz/fcc-voter' ,
     linkDemo: 'https://votez-app.herokuapp.com/' ,
@@ -13,7 +21,7 @@ export const INFO = [
     linkDemo: 'http://kenzomendoza.com/fcc-roguelike-dungeon-crawler/' ,
     projectTitle: 'Roguelike Dungeon Crawler Game' ,
     projectDescription: "A Roguelike Dungeon Crawler Game",
-    projectTags: '#React, #Redux, #ES6, pair-programming'
+    projectTags: '#React, #Redux, #ES6, #O-O Game-Design'
   },
   {
     picture: '/src/image/game-of-life.png' ,
@@ -24,92 +32,12 @@ export const INFO = [
     projectTags: '#React, #Redux, #ES6'
   },
   {
-    picture: '/src/image/recipe-box.png' ,
-    linkProject: 'https://github.com/Neotriz/RecipeBox' ,
-    linkDemo: 'https://neotriz.github.io/RecipeBox/' ,
-    projectTitle: 'Recipe Box' ,
-    projectDescription: "An app that lets users store recipes",
-    projectTags: '#React, #Redux, #localStorage'
-  },
-  {
-    picture: '/src/image/leaderboard.png' ,
-    linkProject: 'https://github.com/Neotriz/FCCLeaderBoard' ,
-    linkDemo: 'https://neotriz.github.io/FCCLeaderBoard/' ,
-    projectTitle: 'FreeCodeCamp LeaderBoard' ,
-    projectDescription: "Lists 100 campers for the last 30 days or all time",
-    projectTags: "#React, #axios"
-  },
-  {
     picture: '/src/image/code-background.png' ,
     linkProject: 'https://github.com/Neotriz/url-shortener' ,
     linkDemo: 'https://murmuring-reef-69157.herokuapp.com/' ,
     projectTitle: 'URL Shortener' ,
     projectDescription: "An API that lets users shorten their URL link",
     projectTags: '#mongodb, #express.js, #node.js'
-  },
-  {
-    picture: '/src/image/code-background.png' ,
-    linkProject: 'https://github.com/Neotriz/FCCImageSearchAbstraction' ,
-    linkDemo: 'https://image-abtract-fcc.herokuapp.com/' ,
-    projectTitle: 'Image Search Abstract' ,
-    projectDescription: "An API that abtracts an image seach into JSON style",
-    projectTags: '#mongodb, #express.js, #node.js'
-  },
-  {
-    picture: '/src/image/code-background.png' ,
-    linkProject: 'https://github.com/Neotriz/FCCRequestHeaderParser' ,
-    linkDemo: 'https://blooming-retreat-88256.herokuapp.com/' ,
-    projectTitle: 'Request Header Parser Microservice' ,
-    projectDescription: "An API that returns the user its IP Address, language and OS",
-    projectTags: '#express.js, #node.js'
-  },
-  {
-    picture: '/src/image/code-background.png' ,
-    linkProject: 'https://github.com/Neotriz/timestamp-api' ,
-    linkDemo: 'https://timestamper-api-fcc.herokuapp.com/' ,
-    projectTitle: 'MicroService TimeStamp' ,
-    projectDescription: "Simple API that tranforms time strings into Unix-format",
-    projectTags: "#node.js, #express.js"
-  },
-  {
-    picture: '/src/image/global-map.png' ,
-    linkProject: 'https://github.com/Neotriz/FCC-Map-Data' ,
-    linkDemo: 'http://kenzomendoza.com/FCC-Map-Data/app/' ,
-    projectTitle: 'Map Data Across the Globe Complete' ,
-    projectDescription: "A visualization of meteor strikes across the world",
-    projectTags: '#d3.js'
-  },
-  {
-    picture: '/src/image/heatmap.png' ,
-    linkProject: 'https://github.com/Neotriz/FCC-HeatMap' ,
-    linkDemo: 'http://s.codepen.io/neotriz/debug/PGOLBb' ,
-    projectTitle: 'HeatMap' ,
-    projectDescription: "A visualization graph of heat index",
-    projectTags: '#d3.js'
-  },
-  {
-    picture: '/src/image/scatter-plot.png' ,
-    linkProject: 'https://github.com/Neotriz/FCC-ScatterPlot' ,
-    linkDemo: 'http://s.codepen.io/neotriz/debug/xEPwrx' ,
-    projectTitle: 'Scatter-Plot' ,
-    projectDescription: "A visualization graph using Scatter-Plot",
-    projectTags: '#d3.js'
-  },
-  {
-    picture: '/src/image/force-map.png' ,
-    linkProject: 'https://github.com/Neotriz/FCC-Force-Directed-Graph' ,
-    linkDemo: 'http://s.codepen.io/neotriz/debug/jrYvjJ' ,
-    projectTitle: 'Force-Directed-Graph' ,
-    projectDescription: "A visualization graph using Force-Directed-Graph",
-    projectTags: '#d3.js'
-  },
-  {
-    picture: '/src/image/bar-graph.png' ,
-    linkProject: 'https://github.com/Neotriz/d3-bar-chart-FCC/tree/master/app' ,
-    linkDemo: 'http://s.codepen.io/neotriz/debug/PGJqQq' ,
-    projectTitle: 'Bar-Chart' ,
-    projectDescription: "A visualization graph using Bar-Chart",
-    projectTags: '#d3.js'
   },
   {
     picture: '/src/image/simon.png' ,
@@ -128,6 +56,30 @@ export const INFO = [
     projectTags: '#Object-Oriented, #jQuery, #Min-Max-Algorithm'
   },
   {
+    picture: '/src/image/global-map.png' ,
+    linkProject: 'https://github.com/Neotriz/FCC-Map-Data' ,
+    linkDemo: 'http://kenzomendoza.com/FCC-Map-Data/app/' ,
+    projectTitle: 'Map Data Across the Globe Complete' ,
+    projectDescription: "A visualization of meteor strikes across the world",
+    projectTags: '#d3.js'
+  },
+  {
+    picture: '/src/image/heatmap.png' ,
+    linkProject: 'https://github.com/Neotriz/FCC-HeatMap' ,
+    linkDemo: 'http://s.codepen.io/neotriz/debug/PGOLBb' ,
+    projectTitle: 'HeatMap' ,
+    projectDescription: "A visualization graph of heat index",
+    projectTags: '#d3.js'
+  },
+  {
+    picture: '/src/image/force-map.png' ,
+    linkProject: 'https://github.com/Neotriz/FCC-Force-Directed-Graph' ,
+    linkDemo: 'http://s.codepen.io/neotriz/debug/jrYvjJ' ,
+    projectTitle: 'Force-Directed-Graph' ,
+    projectDescription: "A visualization graph using Force-Directed-Graph",
+    projectTags: '#d3.js'
+  },
+  {
     picture: '/src/image/weather.png' ,
     linkProject: 'http://codepen.io/neotriz/pen/EywOQQ' ,
     linkDemo: 'http://s.codepen.io/neotriz/debug/EywOQQ' ,
@@ -140,14 +92,6 @@ export const INFO = [
     linkProject: 'https://github.com/Neotriz/Podomoro-Clock' ,
     linkDemo: 'http://kenzomendoza.com/Podomoro-Clock/app/' ,
     projectTitle: 'Pomodoro-Clock' ,
-    projectDescription: 'Podomoro-Clock implementation',
-    projectTags: '#jQuery'
-  },
-  {
-    picture: '/src/image/quote.png' ,
-    linkProject: 'http://codepen.io/neotriz/pen/QEWBLm' ,
-    linkDemo: 'http://s.codepen.io/neotriz/debug/QEWBLm' ,
-    projectTitle: 'Random-Generated Quote' ,
     projectDescription: 'Podomoro-Clock implementation',
     projectTags: '#jQuery'
   }
