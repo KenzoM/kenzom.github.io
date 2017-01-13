@@ -21,7 +21,7 @@ export const INFO = [
     linkDemo: 'http://kenzomendoza.com/fcc-roguelike-dungeon-crawler/' ,
     projectTitle: 'Roguelike Dungeon Crawler Game' ,
     projectDescription: "A Roguelike Dungeon Crawler Game",
-    projectTags: '#React, #Redux, #ES6, #O-O Game-Design'
+    projectTags: '#React, #Redux, #ES6, #OO Game-Design'
   },
   {
     picture: '/src/image/game-of-life.png' ,
@@ -42,15 +42,15 @@ export const INFO = [
   {
     picture: '/src/image/simon.png' ,
     linkProject: 'https://github.com/Neotriz/SimonFCC' ,
-    linkDemo: 'http://s.codepen.io/neotriz/debug/RRxOJb' ,
+    linkDemo: 'http://kenzomendoza.com/SimonFCC/app/' ,
     projectTitle: 'Simon Game' ,
-    projectDescription: "A popular child-based game Simon-Says",
+    projectDescription: "A popular child-based Simon-Says game",
     projectTags: '#Object-Oriented, #jQuery'
   },
   {
     picture: '/src/image/tic-tac-toe.png' ,
-    linkProject: 'http://codepen.io/neotriz/pen/yJPLOO' ,
-    linkDemo: 'http://s.codepen.io/neotriz/debug/yJPLOO' ,
+    linkProject: 'https://github.com/Neotriz/TicTacToe' ,
+    linkDemo: 'http://kenzomendoza.com/TicTacToe/app/' ,
     projectTitle: 'Tic-Tac-Toe' ,
     projectDescription: 'Simple tic-tac-toe with a formidable AI opponent',
     projectTags: '#Object-Oriented, #jQuery, #Min-Max-Algorithm'
@@ -66,7 +66,7 @@ export const INFO = [
   {
     picture: '/src/image/heatmap.png' ,
     linkProject: 'https://github.com/Neotriz/FCC-HeatMap' ,
-    linkDemo: 'http://s.codepen.io/neotriz/debug/PGOLBb' ,
+    linkDemo: 'http://kenzomendoza.com/FCC-HeatMap/app/' ,
     projectTitle: 'HeatMap' ,
     projectDescription: "A visualization graph of heat index",
     projectTags: '#d3.js'
@@ -74,15 +74,15 @@ export const INFO = [
   {
     picture: '/src/image/force-map.png' ,
     linkProject: 'https://github.com/Neotriz/FCC-Force-Directed-Graph' ,
-    linkDemo: 'http://s.codepen.io/neotriz/debug/jrYvjJ' ,
+    linkDemo: 'http://kenzomendoza.com/FCC-Force-Directed-Graph/app/' ,
     projectTitle: 'Force-Directed-Graph' ,
     projectDescription: "A visualization graph using Force-Directed-Graph",
     projectTags: '#d3.js'
   },
   {
     picture: '/src/image/weather.png' ,
-    linkProject: 'http://codepen.io/neotriz/pen/EywOQQ' ,
-    linkDemo: 'http://s.codepen.io/neotriz/debug/EywOQQ' ,
+    linkProject: 'https://github.com/Neotriz/FCC-Weather' ,
+    linkDemo: 'http://kenzomendoza.com/FCC-Weather/app/' ,
     projectTitle: 'Local Weather' ,
     projectDescription: "A simple local weather app using Open Weather API",
     projectTags: '#ajax, #jQuery'
