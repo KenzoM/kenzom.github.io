@@ -18,7 +18,7 @@ export default class About extends Component {
             </div>
             <div className="col-sm-12 col-md-6 text-center">
               <h3>Hi! My name is <span className="highlight-text">Kenzo</span></h3>
-              <p className="about-bio">I&#39;ve learned how to program
+              <p className="about-bio">I'm self-taught and I&#39;ve learned how to program
                 through various resources, most notably <a href="https://www.freecodecamp.com"> <span className="highlight-text2">FreeCodeCamp</span></a>,&nbsp;
                 <a href="https://wwww.udemy.com"><span className="highlight-text2">Udemy</span></a> and <a href="https://www.udacity.com"><span className="highlight-text2">Udacity</span></a>.
                 <br />
@@ -33,7 +33,7 @@ export default class About extends Component {
                 <br />
               </p>
               <div className="btn-three-d">
-                  <span className="content"><a href="https://www.dropbox.com/s/241w28bx3wvd7f4/Resume%202012%20Kenzo.pdf?dl=1">Resume <i className="fa fa-file-pdf-o fa-1x"></i></a></span>
+                  <span className="content"><a href="../resume/resumeKenzo.pdf">Resume <i className="fa fa-file-pdf-o fa-1x"></i></a></span>
               </div>
               <div className="btn-three-d">
                 <Link activeClass="active" className="Contact" to="contact-section" spy={true} smooth={true} offset={-45} duration={2000}><span className="content">Contact me!</span></Link>
