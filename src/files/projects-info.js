@@ -1,7 +1,7 @@
 export const INFO = [
   {
     picture: '/src/image/nightapp.png' ,
-    linkProject: 'https://github.com/Neotriz/fcc-nightlife' ,
+    linkProject: 'https://github.com/kenzom/fcc-nightlife' ,
     linkDemo: 'https://night-app-life-app-fcc.herokuapp.com/' ,
     projectTitle: 'NightLife Coordination App' ,
     projectDescription: "A Single-Web Page using MERN",
@@ -9,7 +9,7 @@ export const INFO = [
   },
   {
     picture: '/src/image/votez.png' ,
-    linkProject: 'https://github.com/Neotriz/fcc-voter' ,
+    linkProject: 'https://github.com/kenzom/fcc-voter' ,
     linkDemo: 'https://votez-app.herokuapp.com/' ,
     projectTitle: 'Votez-App' ,
     projectDescription: "A Simple Voting App using MERN",
@@ -17,15 +17,15 @@ export const INFO = [
   },
   {
     picture: '/src/image/dungeon.png' ,
-    linkProject: 'https://github.com/Neotriz/fcc-roguelike-dungeon-crawler' ,
-    linkDemo: 'http://kenzomendoza.com/fcc-roguelike-dungeon-crawler/' ,
+    linkProject: 'https://github.com/kenzom/fcc-roguelike-dungeon-crawler' ,
+    linkDemo: 'http://kenzom.github.io/fcc-roguelike-dungeon-crawler/' ,
     projectTitle: 'Roguelike Dungeon Crawler Game' ,
     projectDescription: "A Roguelike Dungeon Crawler Game",
     projectTags: '#React, #Redux, #ES6, #OO Game-Design'
   },
   {
     picture: '/src/image/game-of-life.png' ,
-    linkProject: 'https://github.com/Neotriz/FCC-Game-of-Life' ,
+    linkProject: 'https://github.com/kenzom/FCC-Game-of-Life' ,
     linkDemo: 'http://kenzomendoza.com/FCC-Game-of-Life/' ,
     projectTitle: 'Conway\'s Game of Life' ,
     projectDescription: "A simulation of John Conway's Game of Life",
@@ -33,7 +33,7 @@ export const INFO = [
   },
   {
     picture: '/src/image/code-background.png' ,
-    linkProject: 'https://github.com/Neotriz/url-shortener' ,
+    linkProject: 'https://github.com/kenzom/url-shortener' ,
     linkDemo: 'https://murmuring-reef-69157.herokuapp.com/' ,
     projectTitle: 'URL Shortener' ,
     projectDescription: "An API that lets users shorten their URL link",
@@ -41,7 +41,7 @@ export const INFO = [
   },
   {
     picture: '/src/image/simon.png' ,
-    linkProject: 'https://github.com/Neotriz/SimonFCC' ,
+    linkProject: 'https://github.com/kenzom/SimonFCC' ,
     linkDemo: 'http://kenzomendoza.com/SimonFCC/app/' ,
     projectTitle: 'Simon Game' ,
     projectDescription: "A popular child-based Simon-Says game",
@@ -49,7 +49,7 @@ export const INFO = [
   },
   {
     picture: '/src/image/tic-tac-toe.png' ,
-    linkProject: 'https://github.com/Neotriz/TicTacToe' ,
+    linkProject: 'https://github.com/kenzom/TicTacToe' ,
     linkDemo: 'http://kenzomendoza.com/TicTacToe/app/' ,
     projectTitle: 'Tic-Tac-Toe' ,
     projectDescription: 'Simple tic-tac-toe with a formidable AI opponent',
@@ -57,7 +57,7 @@ export const INFO = [
   },
   {
     picture: '/src/image/global-map.png' ,
-    linkProject: 'https://github.com/Neotriz/FCC-Map-Data' ,
+    linkProject: 'https://github.com/kenzom/FCC-Map-Data' ,
     linkDemo: 'http://kenzomendoza.com/FCC-Map-Data/app/' ,
     projectTitle: 'Map Data Across the Globe Complete' ,
     projectDescription: "A visualization of meteor strikes across the world",
@@ -65,7 +65,7 @@ export const INFO = [
   },
   {
     picture: '/src/image/heatmap.png' ,
-    linkProject: 'https://github.com/Neotriz/FCC-HeatMap' ,
+    linkProject: 'https://github.com/kenzom/FCC-HeatMap' ,
     linkDemo: 'http://kenzomendoza.com/FCC-HeatMap/app/' ,
     projectTitle: 'HeatMap' ,
     projectDescription: "A visualization graph of heat index",
@@ -73,7 +73,7 @@ export const INFO = [
   },
   {
     picture: '/src/image/force-map.png' ,
-    linkProject: 'https://github.com/Neotriz/FCC-Force-Directed-Graph' ,
+    linkProject: 'https://github.com/kenzom/FCC-Force-Directed-Graph' ,
     linkDemo: 'http://kenzomendoza.com/FCC-Force-Directed-Graph/app/' ,
     projectTitle: 'Force-Directed-Graph' ,
     projectDescription: "A visualization graph using Force-Directed-Graph",
@@ -81,7 +81,7 @@ export const INFO = [
   },
   {
     picture: '/src/image/weather.png' ,
-    linkProject: 'https://github.com/Neotriz/FCC-Weather' ,
+    linkProject: 'https://github.com/kenzom/FCC-Weather' ,
     linkDemo: 'http://kenzomendoza.com/FCC-Weather/app/' ,
     projectTitle: 'Local Weather' ,
     projectDescription: "A simple local weather app using Open Weather API",
@@ -89,7 +89,7 @@ export const INFO = [
   },
   {
     picture: '/src/image/pomodoro.png' ,
-    linkProject: 'https://github.com/Neotriz/Podomoro-Clock' ,
+    linkProject: 'https://github.com/kenzom/Podomoro-Clock' ,
     linkDemo: 'http://kenzomendoza.com/Podomoro-Clock/app/' ,
     projectTitle: 'Pomodoro-Clock' ,
     projectDescription: 'Podomoro-Clock implementation',

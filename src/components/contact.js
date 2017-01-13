@@ -12,16 +12,16 @@ export default class Contact extends Component {
               <h1>Contact</h1>
             </div>
             <div className="my-container">
-              <a target="_blank" href="https://www.dropbox.com/s/241w28bx3wvd7f4/Resume%202012%20Kenzo.pdf?dl=1">
+              <a target="_blank" href="../resume/resumeKenzo.pdf">
                 <i className="contact-icn fa fa-file-pdf-o fa-5x"></i>
               </a>
               <a target="_blank" href="https://twitter.com/KenzoJam">
                 <i className="contact-icn fa fa-twitter-square fa-5x"></i>
               </a>
-              <a target="_blank" href="https://github.com/Neotriz">
+              <a target="_blank" href="https://github.com/kenzom">
                 <i className="contact-icn fa fa-github fa-5x"></i>
               </a>
-              <a target="_blank" href="https://www.linkedin.com/in/kenzom">
+              <a target="_blank" href="https://www.linkedin.com/in/kenzo-mendoza">
                 <i className="contact-icn fa fa-linkedin fa-5x"></i>
               </a>
             </div>
