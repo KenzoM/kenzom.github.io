@@ -21,7 +21,7 @@ export default class Contact extends Component {
               <a target="_blank" href="https://github.com/Neotriz">
                 <i className="contact-icn fa fa-github fa-5x"></i>
               </a>
-              <a target="_blank" href="https://www.linkedin.com/in/kenzo-mendoza">
+              <a target="_blank" href="https://www.linkedin.com/in/kenzom">
                 <i className="contact-icn fa fa-linkedin fa-5x"></i>
               </a>
             </div>
