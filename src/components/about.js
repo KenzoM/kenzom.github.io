@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import Scroll from 'react-scroll';
-const Element  = Scroll.Element;
-const Link   = Scroll.Link;
+const Element =  Scroll.Element;
+const Link = Scroll.Link;
 
 export default class About extends Component {
-  render(){
-    return(
+  render() {
+    return (
       <Element name="intro-section" className="element">
         <div className="container">
           <div className="row about">
@@ -14,7 +14,11 @@ export default class About extends Component {
               <hr className="highlight-text" />
             </div>
             <div className="col-sm-12 col-md-6 text-center">
-              <img className="img-responsive center-block bio-picture" src="src/image/kenzo-comp.png" />
+              <img
+                className="img-responsive center-block bio-picture"
+                src="src/image/kenzo-comp.png"
+                alt="profile-picture"
+              />
             </div>
             <div className="col-sm-12 col-md-6 text-center">
               <h3>Hi! My name is <span className="highlight-text">Kenzo</span></h3>

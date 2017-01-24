@@ -2,30 +2,30 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import ProjectCard from '../components/project-card';
 import Scroll from 'react-scroll';
-const Element    = Scroll.Element;
+const Element = Scroll.Element;
 
 class Projects extends Component {
   constructor(props) {
     super(props);
     this.renderProjects = this.renderProjects.bind(this);
   }
-  renderProjects(){
-    return this.props.projects.map(project =>{
+  renderProjects() {
+    return this.props.projects.map(project => {
       return (
         <ProjectCard
-          key ={project.projectTitle}
-          linkDemo ={project.linkDemo}
-          linkProject ={project.linkProject}
-          picture ={project.picture}
-          projectDescription ={project.projectDescription}
-          projectTags ={project.projectTags}
-          projectTitle ={project.projectTitle}
+          key={project.projectTitle}
+          linkDemo={project.linkDemo}
+          linkProject={project.linkProject}
+          picture={project.picture}
+          projectDescription={project.projectDescription}
+          projectTags={project.projectTags}
+          projectTitle={project.projectTitle}
         />
-      )
-    })
+      );
+    });
   }
-  render(){
-    return(
+  render() {
+    return (
       <Element name="project-section" className="element">
         <div className="container">
           <div className="row">
@@ -38,7 +38,7 @@ class Projects extends Component {
           </div>
         </div>
       </Element>
-    )
+    );
   }
 }
 
@@ -47,4 +47,4 @@ function mapStateToProps(state) {
     projects: state.info
   };
 }
-export default connect(mapStateToProps)(Projects)
+export default connect(mapStateToProps)(Projects);
