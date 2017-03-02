@@ -26,7 +26,7 @@ export default class About extends Component {
                 through various resources, most notably <a href="https://www.freecodecamp.com"> <span className="highlight-text2">FreeCodeCamp</span></a>,&nbsp;
                 <a href="https://wwww.udemy.com"><span className="highlight-text2">Udemy</span></a> and <a href="https://www.udacity.com"><span className="highlight-text2">Udacity</span></a>.
                 <br />
-                I am a full-stack developer. I specialize in MERN Stack (MongoDB/ Express.js/ React.js / Node.js).
+                I am a full-stack developer. I specialize in MERN Stack (MongoDB/Express.js/React.js/ Node.js).
                 <br />
                 I host/volunteer <a href="https://www.meetup.com/Free-Code-Camp-SF/"><span className="highlight-text2">FreeCodeCamp's Meetup</span></a> weekly in San Francisco to help other self-taught programmers like myself on various topics such as
                 projects, algorithm, data-structure. I enjoying tackling problems together!
