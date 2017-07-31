@@ -12,7 +12,7 @@ export default class Contact extends Component {
               <h1>Contact</h1>
             </div>
             <div className="my-container">
-              <a target="_blank" href="../resume/resumeKenzo.pdf">
+              <a target="_blank" href="../resume/KenzoResume2017.pdf">
                 <i className="contact-icn fa fa-file-pdf-o fa-5x"></i>
               </a>
               <a target="_blank" href="https://twitter.com/KenzoJam">

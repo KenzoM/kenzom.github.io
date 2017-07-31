@@ -50,6 +50,7 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
+    inline: true,
     contentBase: './',
     outputPath: path.join(__dirname, './dist')
   }

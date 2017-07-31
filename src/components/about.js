@@ -26,9 +26,9 @@ export default class About extends Component {
                 through various resources, most notably <a href="https://www.freecodecamp.com"> <span className="highlight-text2">FreeCodeCamp</span></a>,&nbsp;
                 <a href="https://wwww.udemy.com"><span className="highlight-text2">Udemy</span></a> and <a href="https://www.udacity.com"><span className="highlight-text2">Udacity</span></a>.
                 <br />
-                I am a full-stack developer. I specialize in MERN Stack (MongoDB/Express.js/React.js/ Node.js).
+                I am a front-end developer. I specialize in React/Redux, but also can handle MERN Stack (MongoDB/Express.js/React.js/Node.js).
                 <br />
-                I host/volunteer <a href="https://www.meetup.com/Free-Code-Camp-SF/"><span className="highlight-text2">FreeCodeCamp's Meetup</span></a> weekly in San Francisco to help other self-taught programmers like myself on various topics such as
+                I started out by hosting/volunteering <a href="https://www.meetup.com/Free-Code-Camp-SF/"><span className="highlight-text2">FreeCodeCamp's Meetup</span></a> weekly in San Francisco to help other self-taught programmers like myself on various topics such as
                 projects, algorithm, data-structure. I enjoying tackling problems together!
                 <br />
                 In my spare time, I go out running here in San Francisco, <a href="https://neotriz.tumblr.com/">travel around the world</a>,
@@ -36,7 +36,7 @@ export default class About extends Component {
                 <br />
               </p>
               <div className="btn-three-d">
-                  <span className="content"><a href="../resume/resumeKenzo.pdf">Resume <i className="fa fa-file-pdf-o fa-1x"></i></a></span>
+                <span className="content"><a href="../resume/KenzoResume2017.pdf">Resume <i className="fa fa-file-pdf-o fa-1x"></i></a></span>
               </div>
               <div className="btn-three-d">
                 <Link
@@ -48,7 +48,7 @@ export default class About extends Component {
                   offset={-45}
                   duration={2000}
                 >
-                <span className="content">Contact me!</span>
+                  <a href="#" className="content">Contact me</a>
                 </Link>
               </div>
             </div>
